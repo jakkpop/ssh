@@ -66,7 +66,7 @@ echo -e "${Info} 检测安装git、unzip、crontab工具已完成"
 sleep 1
 ##下载解压拷贝源码
 echo -e "${Info} 正在下载解压处理程序源码"
-wget -N --no-check-certificate "https://github.com/jakkpop/ssh/archive/1.zip"
+wget -N --no-check-certificate "https://github.com/jakkpop/ssh/raw/master/SSP2019Sep.zip"
 unzip 1.zip
 cd SSPanel-Uim-2019Sep
 mv * .[^.]* /www/wwwroot/$website/
@@ -213,5 +213,5 @@ echo -e "${Info} 部署完成，请打开http://$website即可浏览"
 echo -e "${Info} 默认生成的管理员用户名：admin 密码为AaBbCc110"
 echo -e "${Info} 如果打不开站点，请到宝塔面板中软件管理重启nginx和php7.1"
 echo -e "${Info} 自定义配置，请打开/www/wwwroot/$website/config/.config.php进行修改"
-echo -e "${Info} github地址:https://github.com/jakkpop/ssh"
+echo -e "${Info} github地址:https://github.com/lizhongnian/sspanel-v3-mod-uim-bt"
 echo "--------------------------------------------------------------------------------"
