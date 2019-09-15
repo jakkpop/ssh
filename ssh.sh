@@ -67,11 +67,11 @@ sleep 1
 ##下载解压拷贝源码
 echo -e "${Info} 正在下载解压处理程序源码"
 wget -N --no-check-certificate "https://github.com/jakkpop/ssh/raw/master/SSP2019Sep.zip"
-unzip 1.zip
+unzip SSP2019Sep.zip
 cd SSPanel-Uim-2019Sep
 mv * .[^.]* /www/wwwroot/$website/
 cd ..
-rm -rf 1.zip SSPanel-Uim-2019Sep/
+rm -rf SSP2019Sep.zip SSPanel-Uim-2019Sep/
 echo -e "${Info} 下载解压处理程序源码已完成"
 sleep 1
 ##处理php函数
